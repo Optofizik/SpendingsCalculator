@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SpendingsCalculator.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,6 +11,9 @@ namespace SpendingsCalculator.Controllers
     {
         public ActionResult Index()
         {
+            ApplicationContext context = new ApplicationContext();
+            context.Tag.Add(new Tag() { Id = 1, Name = "First" });
+            context.SaveChanges();
             return View();
         }
 
