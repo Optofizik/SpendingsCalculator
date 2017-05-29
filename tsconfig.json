@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "outDir": "./Scripts/jsx",
+    "jsx": "react",
+    "compileOnSave": true
+  },
+  "include": [
+    "./reactjs.ts/app/*"
+  ],
+  "exclude": [
+    "./Scripts/reactjs/**/*",
+    "./reactjs.ts/node_modules/**/*"
+  ]
+}

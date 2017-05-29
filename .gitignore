@@ -1,2 +1,5 @@
 /bin/
 /obj/
+/reactjs.ts/node_modules/
+/Scripts/jsx/
+/_bin_deployableAssemblies/
