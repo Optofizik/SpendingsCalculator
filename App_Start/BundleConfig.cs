@@ -13,7 +13,7 @@ namespace SpendingsCalculator
                       "~/Content/site.css"));
 
             bundles.Add(new ScriptBundle("~/Scripts/jsx").Include(
-                "~/Scripts/jsx/hello.js"
+                "~/Scripts/jsx/bundle.js"
                 ));
 
             bundles.Add(new ScriptBundle("~/Scripts/reactjs").Include(                

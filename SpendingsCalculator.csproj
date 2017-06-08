@@ -232,6 +232,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="reactjs.ts\webpack.config.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\commonjs.js" />
@@ -295,7 +296,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="reactjs.ts\app\hello.tsx" />
+    <TypeScriptCompile Include="reactjs.ts\app\header.tsx" />
+    <TypeScriptCompile Include="reactjs.ts\app\main.tsx" />
+    <TypeScriptCompile Include="reactjs.ts\app\spending-form.tsx" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
