@@ -15,9 +15,6 @@ export class SpendingForm extends React.Component<undefined, undefined> {
     }
 
     getTagsList(): void {
-        var getRequest = new XMLHttpRequest();
-        getRequest.open("get", "api/tags", true);
-        getRequest.send();
-        getRequest.onreadystatechange = function () { };
+        
     }
 }

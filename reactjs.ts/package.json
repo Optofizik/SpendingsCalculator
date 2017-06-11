@@ -1,9 +1,9 @@
 {
   "devDependencies": {
-    "@types/react": "^15.0.0",
-    "@types/react-dom": "^15.0.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
     "source-map-loader": "^0.2.1",
     "ts-loader": "^2.1.0",
     "typescript": "^2.3.4",

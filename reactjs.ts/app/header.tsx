@@ -10,7 +10,7 @@ export class Header extends React.Component<undefined, undefined> {
         return (
                 <div className="row">
                     <div className="col-xs-12 text-center">
-                        <b>Here you can calculate your spendings</b>
+                        <h3>Spendings calculator</h3>
                     </div>
                 </div>
                );
