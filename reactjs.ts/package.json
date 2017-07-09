@@ -4,6 +4,8 @@
     "react-dom": "^15.5.4",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
+    "react-google-charts": "^1.5.5",
+    "moment": "^2.18.1",
     "source-map-loader": "^0.2.1",
     "ts-loader": "^2.1.0",
     "typescript": "^2.3.4",

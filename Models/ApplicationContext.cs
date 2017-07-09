@@ -14,10 +14,11 @@ namespace SpendingsCalculator.Models
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            var sqliteConnectionInitializer = new SqliteCreateDatabaseIfNotExists<ApplicationContext>(modelBuilder);
+            var sqliteConnectionInitializer = new SqliteDropCreateDatabaseWhenModelChanges<ApplicationContext>(modelBuilder);
             Database.SetInitializer(sqliteConnectionInitializer);
         }
 
         public DbSet<Tag> Tag { get; set; }
+        public DbSet<Spending> Spending { get; set; }
     }
 }

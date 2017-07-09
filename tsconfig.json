@@ -4,10 +4,12 @@
     "noEmitOnError": true,
     "removeComments": false,
     "sourceMap": true,
-    "target": "es5",
+    "target": "es2015",
     "outDir": "./Scripts/jsx",
     "jsx": "react",
-    "module": "commonjs"
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "lib": [ "dom", "es2015.promise", "es5" ]
   },
   "include": [
     "./reactjs.ts/app/*"

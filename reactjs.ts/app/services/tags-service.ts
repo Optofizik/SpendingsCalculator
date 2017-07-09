@@ -1,23 +1,11 @@
-﻿import { IService } from "./iservice";
+﻿import { BaseService } from "./base-service";
 
 import { Tag } from "../models/tag";
 
-export class TagsService implements IService<Tag> {
-    public GetAll(): Array<Tag> {
+import { AppConfig } from "../common/app-config";
 
-        var getRequest = new XMLHttpRequest();
-        getRequest.open("get", "api/tags", true);
-        getRequest.send();
-        getRequest.onreadystatechange = function () { };
-
-        return [];
-    }
-
-    public Create(obj: Tag): void {
-
-    }
-
-    public Delete(obj: Tag): void {
-
+export class TagsService extends BaseService<Tag> {
+    constructor() {
+        super(AppConfig.UrlTagService);
     }
 }
